@@ -101,8 +101,7 @@ This project is my way of bridging theory with practice and leveling‑up my ski
 ## 🔗 Connect with Me
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/roberto-cunego/)  
-- 🛠️ [Portfolio](https://your-portfolio.com) *(optional)*  
-- 📫 **Email:** your.email@example.com  
+- 📫 **Email:** robertocunego94@gmail.com
 
 ---
 

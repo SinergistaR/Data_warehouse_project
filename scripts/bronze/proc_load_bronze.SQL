@@ -2,7 +2,7 @@
 ================================
 Stored Procedure: Load Bronze Layer
 ================================
-This script load the data from the crm and erp sources to the bronze layer of the DataWarehouse
+This script create a stored procedure to load the data from the crm and erp sources to the bronze layer of the DataWarehouse
 The code Truncate the tables and then will batch load the data from the sources
 It will also catch any error and calculate the time of the loading
 */

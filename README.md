@@ -70,6 +70,20 @@ Both **full extraction** and **incremental extraction** strategies are explored:
 
 ---
 
+## 🔎 Transparency & Attribution
+
+I built this project by **following along with Data With Baraa’s YouTube series** and adapting it to my own workflow and preferences:  
+👉 <https://www.youtube.com/watch?v=9GVqKuTVANE&list=PLNcg_FV9n7qaUWeyUkPfiVtMbKlrfMqA8>
+
+This repository contains **my personal implementation**:
+- I wrote/organized the SQL and documentation myself.
+- I adjusted naming, comments, and structure where helpful for learning.
+- Any mistakes or differences from the video are my own.
+
+I’m not affiliated with the creator; credit goes to **Data With Baraa** for the tutorial that inspired this work.
+
+---
+
 ## 🧠 What I Learned
 
 - Designing a **star schema** from scratch for analytics  
@@ -82,7 +96,6 @@ Both **full extraction** and **incremental extraction** strategies are explored:
 ## ⚠️ Challenges Faced
 
 - Avoiding **data duplication** during incremental loads  
-- Handling **Slowly Changing Dimensions (SCDs)** without external tools  
 - Maintaining **data quality and integrity** while scaling the process  
 
 ---

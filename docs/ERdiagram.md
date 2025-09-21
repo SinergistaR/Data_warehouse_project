@@ -1,5 +1,6 @@
 # ERD
 
+```mermaid
 erDiagram
   CRM_SALES_DETAILS {
     INT prd_key
@@ -35,4 +36,4 @@ erDiagram
   CRM_PRD_INFO ||..o{ ERP_PX_CAT_G1V2 : "map prd_key → id"
   CRM_CUST_INFO ||..o{ ERP_CUST_AZ12  : "cst_key → cid"
   CRM_CUST_INFO ||..o{ ERP_LOC_A101   : "cst_key → cid"
-
+```

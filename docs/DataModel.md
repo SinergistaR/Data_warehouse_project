@@ -54,3 +54,57 @@
     </tr>
   </tbody>
 </table>
+
+
+
+``` mermaid
+
+flowchart TB
+
+%% ---------- STILI SEMPLICI (compatibili GitHub) ----------
+classDef laneTitle fill:#fff,stroke:#000,stroke-width:1,rx:6,ry:6;
+classDef step fill:#ffffff,stroke:#222,rx:6,ry:6;
+classDef bronze fill:#fff3e6,stroke:#cd7f32,stroke-width:2;
+classDef silver fill:#f2f2f2,stroke:#9e9e9e,stroke-width:2;
+classDef gold   fill:#fff8cc,stroke:#c9a200,stroke-width:2;
+
+%% ---------- BRONZE LAYER ----------
+subgraph BRONZE["Bronze Layer"]
+direction LR
+
+b1["Analysing\n\nInterview source systems experts"]:::step
+b2["Coding\n\nData Ingestion"]:::step
+b3["Validating\n\nData Completeness &\nSchema Checks"]:::step
+b4["Docs & Version\n\nDocumenting\nVersioning in GIT"]:::step
+
+b1 --> b2 --> b3 --> b4
+end
+class BRONZE laneTitle bronze
+
+%% ---------- SILVER LAYER ----------
+subgraph SILVER["Silver Layer"]
+direction LR
+
+s1["Analysing\n\nExplore & Understand\nthe Data"]:::step
+s2["Coding\n\nData Cleansing"]:::step
+s3["Validating\n\nData Correctness checks"]:::step
+s4["Docs & Version\n\nDocumenting\nVersioning in GIT"]:::step
+
+s1 --> s2 --> s3 --> s4
+end
+class SILVER laneTitle silver
+
+%% ---------- GOLD LAYER ----------
+subgraph GOLD["Gold Layer"]
+direction LR
+
+g1["Analysing\n\nExplore & Understand\nthe Business Objects"]:::step
+g2["Coding\n\nData Integration"]:::step
+g3["Validating\n\nData Integration Checks"]:::step
+g4["Docs & Version\n\nDocumenting\nVersioning in GIT"]:::step
+
+g1 --> g2 --> g3 --> g4
+end
+class GOLD laneTitle gold
+
+```

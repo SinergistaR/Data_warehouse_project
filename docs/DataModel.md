@@ -72,7 +72,9 @@ b4["Docs & Version\nDocumenting\nVersioning in GIT"]
 
 b1 --> b2 --> b3 --> b4
 end
+```
 
+``` mermaid
 %% ---------- SILVER LAYER ----------
 subgraph SILVER["Silver Layer"]
 direction LR
@@ -84,6 +86,10 @@ s4["Docs & Version\nDocumenting\nVersioning in GIT"]
 
 s1 --> s2 --> s3 --> s4
 end
+
+```
+
+``` mermaid
 
 %% ---------- GOLD LAYER ----------
 subgraph GOLD["Gold Layer"]

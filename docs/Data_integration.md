@@ -2,7 +2,6 @@
 
 ```mermaid
 flowchart LR
-  %% Layout
   subgraph CRM["CRM — Customer Relationship Management"]
     direction TB
     crm_sales["crm_sales_details\n\nprd_key\ncst_id\n\n— SALES —"]
@@ -21,12 +20,12 @@ flowchart LR
   crm_sales --> crm_prd
   crm_sales --> crm_cust
 
-  %% CRM ↔ ERP Integrations
-  crm_prd ---| "prd_key → id" | erp_cat
-  crm_cust ---| "cst_key → cid" | erp_az12
-  crm_cust ---| "cst_key → cid" | erp_loc
+  %% CRM ↔ ERP Integrations (GitHub-safe labels)
+  crm_prd --|prd_key -> id|--> erp_cat
+  crm_cust --|cst_key -> cid|--> erp_az12
+  crm_cust --|cst_key -> cid|--> erp_loc
 
-  %% Simple styling (GitHub-safe)
+  %% Simple styling
   classDef sales    fill:#e8dcf5,stroke:#b099d0,rx:8,ry:8;
   classDef product  fill:#f9d7d5,stroke:#d69a96,rx:8,ry:8;
   classDef customer fill:#dff0d8,stroke:#9ccc9c,rx:8,ry:8;
@@ -41,5 +40,6 @@ flowchart LR
   class erp_loc customer;
   class CRM groupCRM;
   class ERP groupERP;
+
 
 ```

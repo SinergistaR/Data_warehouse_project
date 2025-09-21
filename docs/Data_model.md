@@ -23,7 +23,7 @@ erDiagram
     INT    category_id
     STRING category
     STRING subcategory
-    STRING maintenance    "Yes/No"
+    STRING maintenance
     DECIMAL cost
     STRING product_line
     DATE   start_date

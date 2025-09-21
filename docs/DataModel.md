@@ -75,6 +75,10 @@ end
 ```
 
 ``` mermaid
+
+flowchart TB
+
+
 %% ---------- SILVER LAYER ----------
 subgraph SILVER["Silver Layer"]
 direction LR
@@ -90,6 +94,9 @@ end
 ```
 
 ``` mermaid
+
+flowchart TB
+
 
 %% ---------- GOLD LAYER ----------
 subgraph GOLD["Gold Layer"]
